@@ -1,13 +1,13 @@
  (function () {
   var domainsToDecorate = [
-  "netdocuments.webflow.com", //add or remove domains (without https or trailing slash)
+  "netdocuments.com", //add or remove domains (without https or trailing slash)
   //   'domain2.net'
   ],
   queryParams = [
   "utm_medium", //add or remove query parameters you want to transfer
   "utm_source",
   "utm_campaign",
-  "something_else",
+  "ref"
   ];
   // do not edit anything below this line
   var links = document.querySelectorAll("a");
